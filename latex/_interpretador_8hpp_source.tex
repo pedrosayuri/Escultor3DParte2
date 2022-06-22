@@ -1,0 +1,30 @@
+\hypertarget{_interpretador_8hpp_source}{}\doxysection{Interpretador.\+hpp}
+\label{_interpretador_8hpp_source}\index{C:/Users/yuri1/source/repos/Escultor3DPT2/Escultor3DPT2/Interpretador.hpp@{C:/Users/yuri1/source/repos/Escultor3DPT2/Escultor3DPT2/Interpretador.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef INTERPRETADOR\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define INTERPRETADOR\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}FiguraGeometrica.hpp"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_interpretador}{Interpretador}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9 \textcolor{keyword}{public}:}
+\DoxyCodeLine{10     \mbox{\hyperlink{class_interpretador}{Interpretador}}();}
+\DoxyCodeLine{11     \textcolor{comment}{//virtual \string~Interpretador(); // Como o vector já tem o destrutor, não precisamos declará-\/lo}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13     vector<FiguraGeometrica*> parse(\textcolor{keywordtype}{string} filename);}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int} getDx();}
+\DoxyCodeLine{15     \textcolor{keywordtype}{int} getDy();}
+\DoxyCodeLine{16     \textcolor{keywordtype}{int} getDz();}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{19     \textcolor{keywordtype}{int} dx, dy, dz;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{float} r, g, b, a;}
+\DoxyCodeLine{21 \textcolor{keyword}{private}:}
+\DoxyCodeLine{22 \};}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// INTERPRETADOR\_H}}
+
+\end{DoxyCode}
